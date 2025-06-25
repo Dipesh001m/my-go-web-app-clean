@@ -18,5 +18,5 @@ This project demonstrates a complete DevOps pipeline for a containerized Golang 
 ## 📦 Step 1: Dockerize and Run Locally
 
 ### 🔧 Build the Docker Image
-
-```docker build -t go-web-app .```
+```
+docker build -t go-web-app .
