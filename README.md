@@ -21,3 +21,10 @@ This project demonstrates a complete DevOps pipeline for a containerized Golang 
 
 ```bash
 docker build -t go-web-app .
+
+docker tag go-web-app your-dockerhub-username/go-web-app:latest
+
+docker push your-dockerhub-username/go-web-app:latest
+
+docker run -p 8080:8080 go-web-app
+
