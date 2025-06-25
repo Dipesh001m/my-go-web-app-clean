@@ -19,5 +19,4 @@ This project demonstrates a complete DevOps pipeline for a containerized Golang 
 
 ### 🔧 Build the Docker Image
 
-```
-docker build -t go-web-app .
+```docker build -t go-web-app .```
